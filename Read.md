@@ -77,7 +77,7 @@ The easiest way to build and test — no local toolchain setup needed.
 sudo docker run -it --rm johnstarich/pintos bash
 
 # Inside the container — get the source
-wget --no-check-certificate https://github.com/wookayin/pintos/archive/refs/heads/master.tar.gz -O master.tar.gz
+wget https://github.com/Jayanthk07/PINTOS-VM/archive/refs/heads/master.tar.gz -O master.tar.gz
 tar xzf master.tar.gz
 
 # Copy into the PintOS skeleton
